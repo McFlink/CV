@@ -9,41 +9,39 @@
 </head>
 
 <body>
-    <div class="container">
+    <div class="container"> <!-- Grid container för whole page layout -->
         <header>
             <h1><span>Mikael</span> Flink</h1>
             <p>Tel: 0734-441240</p>
             <div class="email-adress"><a href="mailto:mikaelcflink@gmail.com">mikaelcflink@gmail.com</a></div>
         </header>
-        <aside>
+        <section>
             <div class="summary"><span class="intro">Kunskapstörstande, snabblärd och driven</span> kille på 39 år
                 som bestämt sig för att byta bransch mitt i livet, och därför nu studerar .Net-utvecklare på
                 Teknikhögskolan i Göteborg. Förutom ett stort intresse för programmering så är min stora passion
                 fiske, som jag även visar upp upp min youtube-kanal som jag driver, där jag även redigering och
                 klipper mina videos.
-                <br>När jag inte fiskar eller sitter vid datorn så tränat jag en del i form av gym samt löpning.
-                <br>
-                Jag bor i Mellerud, Dalsland, på en liten hästgård med sambo och 2 barn.
+                <p>När jag inte fiskar eller sitter vid datorn så tränat jag en del i form av gym samt löpning.</p>
+                <p>Jag bor i Mellerud, Dalsland, på en liten hästgård med sambo och 2 barn.</p>
             </div>
             <div class="profile-pic"><img src="images/profilepic2.jpeg" alt="Profile picture" id="profile-picture">
             </div>
-        </aside>
+        </section>
         <main>
             <h2>Erfarenhet</h2>
             <p class="work-date-span">2023-08 - pågående</p>
-            <p class="employer">(Studerande) .NET-utvecklare<br>Teknikhögskolan, <span class="location">Göteborg</span>
-            </p>
+            <h3 class="occupation">(Studerande) .NET-utvecklare</h3>
+            <p class="employer">Teknikhögskolan, <span class="location">Göteborg</span></p>
             <ul>
                 <li>C#.</li>
                 <li>Databaser, SQL, Entity Framework.</li>
                 <li>Frontend</li>
                 <li>Backend</li>
                 <li>Molnapplikationer</li>
-
             </ul>
             <p class="work-date-span">2017-01 - 2023-08</p>
-            <p class="employer">Produktionsplanerare, arbetsledare<br>Örs Cementgjuteri AB, <span
-                    class="location">Mellerud</span></p>
+            <h3 class="occupation">Produktionsplanerare, arbetsledare</h3>
+            <p class="employer">Örs Cementgjuteri AB, <span class="location">Mellerud</span></p>
             <ul>
                 <li>Planerade produktionen för hela företaget via ERP-system som jag var med och implementerade.</li>
                 <li>Avdelningschef för Efterbehandling/Utlastning. Planerade logistiken för lagning, målning och intern
@@ -52,7 +50,8 @@
                     jag medarbetarsamtal samt lönesamtal, ledningsmöten, fraktkund-kontakter mm.</li>
             </ul>
             <p class="work-date-span">2015-03 - 2017-01</p>
-            <p class="employer">Betongarbetare<br>Kynningsrud AB, <span class="location">Uddevalla</span></p>
+            <h3 class="occupation">Betongarbetare</h3>
+            <p class="employer">Kynningsrud AB, <span class="location">Uddevalla</span></p>
             <ul>
                 <li>Lagbas</li>
                 <li>Ritningsläsning</li>
@@ -61,7 +60,8 @@
                 <li>Travers, truck och hjullastarkörning</li>
             </ul>
             <p class="work-date-span">2007-01 - 2015-03</p>
-            <p class="employer">Betongarbetare<br>Örs Cementgjuteri AB, <span class="location">Mellerud</span></p>
+            <h3 class="occupation">Betongarbetare</h3>
+            <p class="employer">Örs Cementgjuteri AB, <span class="location">Mellerud</span></p>
             <ul>
                 <li>Handledare nyanställda</li>
                 <li>Ritningsläsning</li>
@@ -70,7 +70,7 @@
                 <li>Travers, truck och hjullastarkörning</li>
             </ul>
         </main>
-        <div class="sidebar">
+        <div class="sidebar"> <!-- Best practice would be that .sidebar be put in main also, but since we talked about it after   class the other day I didn't change it now afterwards. :) -->
             <h2>Färdigheter</h2>
             <ul>
                 <li>Lösningsorienterad</li>
@@ -93,6 +93,12 @@
                 <li>Premiere Pro Videoredigering</li>
                 <li>Driver Youtube-kanal</li>
             </ul>
+            <aside>
+            <video class="logo-video" controls>
+                <source src="images/ff-video.mp4" type="video/mp4">
+                Tyvärr kan inte videon spelas upp.
+            </video>
+        </aside>
         </div>
     </div>
 </body>
