@@ -92,7 +92,7 @@ section img{
     height: auto;
     margin-right: 60px;
     margin-left: 95px;
-    
+    box-shadow: 2px 2px 4px #fff;
 }
 
 main {
@@ -176,7 +176,6 @@ main li {
 
 aside .logo-video {
     width: 280px;
-    height: 260px;
     margin-top: 45px;
     margin-left: 3px;
 }
